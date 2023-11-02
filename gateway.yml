@@ -21,7 +21,7 @@ spring:
         - id: ecommerce
           uri: lb://ECOMMERCE
           predicates:
-            - Path=/ecommerce/**
+            - Path=/produtos/**
         - id: shopping-cart
           uri: lb://SHOPPING-CART
           predicates:
